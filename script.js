@@ -111,7 +111,6 @@ playButtons.forEach((element, i) => {
         rotatealbum.classList.remove("rotate");
         element.classList.remove("fa-pause-circle");
         element.classList.add("fa-play-circle");
-        curdiv.style.backgroundColor='antiquewhite';
         document.title='Spotify';
       }
     }
@@ -161,7 +160,6 @@ mainplay.addEventListener("click", () => {
     playicon.classList.remove("fa-pause-circle");
     varcur.classList.remove("fa-pause-circle");
     rotatealbum.classList.remove("rotate");
-    curdiv.style.backgroundColor='antiquewhite';
     document.title='Spotify';
   }
 });
